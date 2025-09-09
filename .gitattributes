@@ -1,0 +1,26 @@
+# ===== 改行コードの統一 =====
+# 常に LF に統一
+* text=auto eol=lf
+
+# ===== 主要ファイル形式ごとの設定 =====
+*.html text eol=lf
+*.css  text eol=lf
+*.js   text eol=lf
+*.ts   text eol=lf
+*.json text eol=lf
+*.yml  text eol=lf
+*.yaml text eol=lf
+*.md   text eol=lf
+*.svg  text eol=lf
+
+# ===== バイナリファイルは変換しない =====
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.ico  binary
+*.pdf  binary
+*.zip  binary
+*.ttf  binary
+*.woff binary
+*.woff2 binary

@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://asb-screening.com/sitemap.xml
