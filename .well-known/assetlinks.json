@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.asbscreening.asbestosdetailsheet",
+      "sha256_cert_fingerprints": [
+        "1A:8D:48:ED:D6:22:0B:F3:FE:4E:7C:A8:25:DC:9A:2F:A3:DE:A9:0E:53:22:00:FC:33:28:19:A0:56:1D:61:33"
+      ]
+    }
+  }
+]

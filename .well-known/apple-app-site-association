@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "7CFFDBS664.com.asbscreening.asbestosdetailsheet",
+        "paths": [ "/app/*", "/login-callback", "/reset-password" ]
+      }
+    ]
+  }
+}
