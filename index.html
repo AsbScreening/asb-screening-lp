@@ -23,17 +23,12 @@
 <section class="hero"><div class="card">
   <span class="badge">現場主義のための業務アプリ</span>
   <h1 class="h1">このアプリは、<br>石綿調査の<br>「正解」を押し付けません。</h1>
-  <h2>現場には、<br>すでに<br>それぞれの“システム”があります。<br><br>すべての作業者のために<br>それを壊さない<br>道具を作りました。</h2>
+  <h2>現場には、<br>すでに<br>“システム”があります。<br><br>私たちは、<br>それを壊さない<br>道具を作りました。</h2>
   <p class="lead">建物の構造も、<br>調査の進め方も、<br>現場ごとに違う。<br><br>AsbestosDetailSheet は、<br>その違いを<br>無理に統一しないための<br>石綿スクリーニング用<br>ツールアプリです。</p>
   <p class="small">現場で考えた整理方法を、<br>そのまま記録できる。</p>
-  <div class="cta" id="cta"><a class="btn" href="#pricing">月額3,000円で始める</a><a class="btn secondary" href="#features">まずは特徴を見る</a></div>
-  <div class="kpis">
-    <div class="kpi"><b>オフライン保存</b><div>圏外でも入力・閲覧可</div></div>
-    <div class="kpi"><b>チーム共有</b><div>権限管理・変更履歴</div></div>
-    <div class="kpi"><b>月額3,000円</b><div>シンプルな定額制</div></div>
-  </div>
+  <div class="cta"><a class="btn" href="#pricing">月額3,000円で始める</a><a class="btn secondary" href="#features">まずは特徴を見る</a></div>
 </div>
-<div class="card"><h3>主なユースケース</h3><ul>
+<div class="card quiet-card"><h3>主なユースケース</h3><ul>
   <li>建材調査（石綿含有建材・位置・写真のひもづけ）</li>
   <li>現地サンプリングの検体管理</li>
   <li>現場→事務所の円滑なデータ連携</li>
@@ -46,8 +41,10 @@
     <div class="concept-wrap">
       <figure class="concept-figure">
         <div class="concept-images">
-          <img src="/assets/one_draw.png" alt="現場の構造を自由に組み替えられる図解" class="concept-main">
-          <img src="/assets/one_draw_phone.png" alt="モバイルでの構造図表示" class="concept-phone">
+          <picture>
+            <source media="(max-width: 700px)" srcset="/assets/one_draw_phone.png">
+            <img src="/assets/one_draw.png" alt="現場の構造を自由に組み替えられる図解" class="concept-main">
+          </picture>
         </div>
         <figcaption>記録の構造は一本ではありません。<br>内部・外部、箇所、部位の分け方は<br>現場に合わせて自由に組み替えられます。</figcaption>
       </figure>
@@ -69,22 +66,43 @@
       </div>
     </div>
     <div class="diagram-closing">現場で考えた構造が、そのまま記録として残ります。</div>
+</div>
+</section>
+<section id="features" class="three-things">
+  <h2>このアプリが提供する、3つのこと</h2>
+  <div class="three-grid">
+    <div class="feature-card">
+      <h3>① 現場の考え方を、そのまま構造にできる</h3>
+      <p>固定フォーマットを用意しません。<br>案件・棟・内部／外部・箇所・部位──<br>分け方は、現場で決めてください。</p>
+    </div>
+    <div class="feature-card">
+      <h3>② 建材を最小単位として記録できる</h3>
+      <p>部屋単位ではなく、建材単位で記録します。<br>付属建材として層構造にも対応し、<br>石綿スクリーニングに必要な視点を崩しません。</p>
+    </div>
+    <div class="feature-card">
+      <h3>③ 写真が、考えた構造の中で整理される</h3>
+      <p>写真は建材に紐づいて保存されます。<br>出力時には、構造に沿って自動で整理され、<br>撮ったあとの整理作業は不要です。</p>
+    </div>
   </div>
 </section>
-<section id="features" class="features">
-  <div class="feature"><h3>① オフライン使用可能</h3><p>ローカルDBに保存し、オンライン復帰時に同期。</p></div>
-  <div class="feature"><h3>② チームでの使用</h3><p>プロジェクト単位で招待・権限管理・履歴。</p></div>
-  <div class="feature"><h3>③ 月額3,000円/ユーザー</h3><p>シンプルな定額制でスモールスタート。</p></div>
+<section id="pricing" class="pricing-shell">
+  <div class="pricing-copy">
+    <h2>現場の道具として、ちょうどいい価格。</h2>
+    <p>AsbestosDetailSheet は、<br>現場の考え方を尊重するために、<br>機能を詰め込みすぎない設計にしています。</p>
+    <p>その代わり、<br>一人ひとりが使える道具として、<br>月額3,000円（ユーザー単位）で提供しています。</p>
+    <p>案件数や建物数による制限はありません。<br>現場で考えた分だけ、自由に使ってください。</p>
+  </div>
+  <div class="pricing-card">
+    <div class="price-label">月額 3,000円 / ユーザー</div>
+    <div class="cta vertical"><a class="btn" href="#cta" id="cta">現場で試してみる</a><p class="small">まずは自分のやり方で使ってみてください。</p></div>
+    <div class="free-note">Freeプランでは、<br>1人で1案件・1棟まで、<br>アプリの考え方を確認できます。<br><br>チーム共有や複数案件の運用は、<br>有料プランでご利用いただけます。</div>
+  </div>
 </section>
-<section id="pricing"><h2>料金</h2><div class="pricing">
-  <div class="plan"><div class="ribbon">おすすめ</div><h3>スタンダード</h3><div class="price">3,000円 / 月 / ユーザー</div>
-  <ul><li>オフライン使用</li><li>チーム共有（権限付与）</li><li>基本サポート（メール）</li></ul>
-  <div class="cta"><a class="btn" href="#">申し込む（準備中）</a><a class="btn secondary" href="#faq">よくある質問</a></div>
-</div></div><p class="small">※ 税込/税別は運用に合わせて調整。</p></section>
 <section id="faq" class="faq">
-  <div class="q"><strong>Q. オフラインでどこまで？</strong><p>A. 新規作成・編集・閲覧が可能。復帰時に差分同期。</p></div>
-  <div class="q"><strong>Q. 権限は？</strong><p>A. プロジェクト単位で閲覧/編集を設定。</p></div>
-  <div class="q"><strong>Q. 支払い方法？</strong><p>A. クレジットカード（Stripe）予定。</p></div>
+  <div class="faq-heading">Freeプランについて</div>
+  <div class="q"><strong>Q1. Freeプランでは、どこまで使えますか？</strong><p>A：<br><br>Freeプランでは、<br>1人で1案件・1棟まで記録できます。<br><br>構造の組み方や、<br>建材単位での記録など、<br>このアプリの考え方を一通り確認していただけます。<br><br>チーム共有や、複数案件の運用は<br>有料プランでご利用いただけます。</p></div>
+  <div class="q"><strong>Q2. どのタイミングで有料プランが必要になりますか？</strong><p>A：<br><br>次のような場面になったときが、<br>有料プランのタイミングです。<br><br>- チームで同じ案件を共有したい<br>- 複数の案件を扱いたいとき<br>- 現場の記録を本格的に使い続けたい<br><br>「このやり方でいけそうだ」と感じた時点で、<br>切り替えていただくのが一番自然です。</p></div>
+  <div class="q"><strong>Q3. 有料プランにすると、何が変わりますか？</strong><p>A：<br><br>記録の考え方は変わりません。<br><br>有料プランでは、<br>Freeプランで確認したそのままのやり方で、<br><br>- チーム共有が可能になります<br>- 案件・棟数の制限なく記録できます<br><br>現場で考えた構造を、<br>そのままチームや案件全体で使えるようになります。</p></div>
 </section>
 <footer class="footer"><div>© 2025-09-09 AsbestosDetailSheet</div>
   <div><a href="/tokutei.html">特定商取引法による表示</a><a href="/privacy.html">プライバシーポリシー</a><a href="/terms.html">利用規約</a><a href="/data-safety.html">データセーフティ</a></div>
